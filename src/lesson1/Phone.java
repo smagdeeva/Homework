@@ -3,7 +3,7 @@ package lesson1;
 import java.util.Scanner;
 
 
-public class phone {
+public class Phone {
 
     public static void task7(String[] args) {
         System.out.println("Введите код города: ");

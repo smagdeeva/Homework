@@ -2,7 +2,7 @@ package lesson1;
 
 import java.util.Scanner;
 
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         System.out.println("Введите три числа");
         Scanner sc = new Scanner(System.in);

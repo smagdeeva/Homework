@@ -2,7 +2,7 @@ package lesson1;
 
 import java.util.Scanner;
 
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         System.out.println("Введите целое трехзначное число: ");
         Scanner sc = new Scanner(System.in);
