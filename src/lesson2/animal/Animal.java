@@ -2,23 +2,23 @@ package lesson2.animal;
 
 public class Animal {
 
-    String food;
-    String location;
+    protected String food;
+    protected String location;
 
     public Animal(String food, String location) {
         this.food = food;
         this.location = location;
     }
 
-    protected void makeNoise() {
+    public void makeNoise() {
         System.out.println("");
     }
 
-    protected void eat() {
+    public void eat() {
         System.out.println("");
     }
 
-    protected void sleep() {
+    public void sleep() {
         System.out.println("");
     }
 }

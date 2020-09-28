@@ -1,7 +1,7 @@
 package lesson2.animal;
 
 public class Horse extends Animal {
-    String strong;
+    private String strong;
 
     public Horse(String food, String location) {
         super(food, location);
@@ -18,7 +18,7 @@ public class Horse extends Animal {
     }
 
     @Override
-    protected void sleep() {
+    public void sleep() {
         System.out.println("Лошадь спит  " + location);
     }
 }
