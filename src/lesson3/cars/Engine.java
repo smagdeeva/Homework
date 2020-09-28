@@ -2,10 +2,15 @@ package lesson3.cars;
 
 public class Engine {
 
-    public double power;
-    public String manufacturer;
+    private double power;
+    private String manufacturer;
 
-    void printInfo(double power, String manufacturer) {
+    public Engine(double power, String manufacturer) {
+        this.power = power;
+        this.manufacturer = manufacturer;
+    }
+
+    void printInfo() {
         System.out.println("Информация о моторе " + power + manufacturer);
     }
 }

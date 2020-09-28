@@ -1,26 +1,31 @@
 package lesson3.cars;
 
 public abstract class Car {
-    public String modelName;
-    public String modelClass;
-    public double weight;
-    public Engine engine;
+    protected String modelName;
+    protected String modelClass;
+    protected double weight;
+    protected Engine engine;
 
-    public abstract void start();
+    public Car(String modelName, String modelClass, double weight, Engine engine) {
+        this.modelName = modelName;
+        this.modelClass = modelClass;
+        this.weight = weight;
+        this.engine = engine;
+    }
 
-    public abstract void stop();
+    abstract void start();
 
-    public void turnRight() {
+    abstract void stop();
+
+    void turnRight() {
         System.out.println("Поворот направо");
     }
 
-    public void turnLeft() {
+    void turnLeft() {
         System.out.println("Поворот налево");
     }
 
-    public abstract void printInfo();
+    abstract void printInfo();
 
-    void printInfo(String modelName, String modelClass, double weight, String engine) {
-        System.out.println("Информация об автомобиле " + modelName + modelClass + weight + engine);
-    }
+
 }
