@@ -2,11 +2,16 @@ package lesson3.shape;
 
 public class Triangle implements Shape {
 
-    double base, height;
+    private double base;
+    private double height;
+
+    public Triangle(double base, double height) {
+        this.base = base;
+        this.height = height;
+    }
 
     public double square() {
-        double sh = (base * height) / 2;
-        return 0;
+        return (base * height) / 2;
 
 
     }

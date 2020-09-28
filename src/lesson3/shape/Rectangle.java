@@ -3,10 +3,17 @@ package lesson3.shape;
 import lesson3.shape.Shape;
 
 public class Rectangle implements Shape {
-    double width, length;
+    private double width;
+    private double length;
+
+
+    public Rectangle(double width, double length) {
+        this.width = width;
+        this.length = length;
+    }
 
     public double square() {
-        double sh = width * length;
-        return 0;
+        return width * length;
+
     }
 }

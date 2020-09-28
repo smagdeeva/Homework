@@ -2,11 +2,14 @@ package lesson3.shape;
 
 
 public class Circle implements Shape {
-    double radius;
+    private double radius;
 
+    public Circle(double radius) {
+        this.radius = radius;
+    }
 
     public double square() {
-        double sh = radius * radius * Math.PI;
-        return 0;
+        return radius * radius * Math.PI;
+
     }
 }
