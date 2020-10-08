@@ -15,16 +15,16 @@ public class Phone {
 
     }
 
-    public Phone(int a, String b, int c) {
-        number = a;
-        model = b;
-        weight = c;
-        Phone phone1 = new Phone(a, b);
+    public Phone(int number, String model, int weight) {
+        this.number = number;
+        this.model = model;
+        this.weight = weight;
+        Phone phone1 = new Phone(number, model);
     }
 
-    public Phone(int a, String b) {
-        number = a;
-        model = b;
+    public Phone(int number, String model) {
+        this.number = number;
+        this.model = model;
     }
 
     public Phone() {
