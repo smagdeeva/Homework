@@ -17,11 +17,11 @@ public abstract class Car {
 
     abstract void stop();
 
-    void turnRight() {
+    public void turnRight() {
         System.out.println("Поворот направо");
     }
 
-    void turnLeft() {
+    public void turnLeft() {
         System.out.println("Поворот налево");
     }
 

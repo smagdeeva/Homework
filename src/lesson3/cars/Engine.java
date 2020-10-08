@@ -10,7 +10,7 @@ public class Engine {
         this.manufacturer = manufacturer;
     }
 
-    void printInfo() {
+    public void printInfo() {
         System.out.println("Информация о моторе " + power + manufacturer);
     }
 }
